@@ -7,6 +7,7 @@
 
 # Directory
 
+```
 project/
 ├── .vscode/
 │ └── extensions.json # VSCode 확장 설정 파일
@@ -59,6 +60,7 @@ project/
 ├── tsconfig.json # TypeScript 기본 설정
 ├── tsconfig.node.json # Node.js용 TypeScript 설정
 └── vite.config.ts # Vite 설정 파일
+```
 
 # Create
 
