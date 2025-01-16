@@ -10,56 +10,56 @@
 ```
 project/
 ├── .vscode/
-│ └── extensions.json # VSCode 확장 설정 파일
-├── node_modules/ # 설치된 패키지들
+│ └── extensions.json               # VSCode 확장 설정 파일
+├── node_modules/                   # 설치된 패키지들
 ├── public/
-│ └── vite.svg # 정적 파일
+│ └── vite.svg
 ├── src/
 │ ├── assets/
-│ │ ├── img/ # 이미지 파일들
-│ │ │ └── img/ # 예: 로고, 아이콘 등
+│ │ ├── img/                        # 이미지 파일들
+│ │ │ └── img/
 │ │ └── styles/
-│ │ └── global.css # 전역 스타일 파일
+│ │ └── global.css                  # 전역 스타일 파일
 │ ├── components/
-│ │ └── Header.tsx # 헤더 컴포넌트
+│ │ └── Header.tsx                  # 헤더 컴포넌트
 │ ├── hooks/
-│ │ └── useNetwork.ts # 네트워크 관련 커스텀 훅
+│ │ └── useNetwork.ts               # 네트워크 관련 커스텀 훅
 │ ├── i18n/
-│ │ ├── en.json # 영어 번역 파일
-│ │ ├── index.ts # i18n 초기화 설정
-│ │ └── ko.json # 한국어 번역 파일
+│ │ ├── en.json                     # 영어 번역 파일
+│ │ ├── index.ts                    # i18n 초기화 설정
+│ │ └── ko.json                     # 한국어 번역 파일
 │ ├── pages/
 │ │ ├── error/
-│ │ │ └── index.tsx # 에러 페이지
+│ │ │ └── index.tsx                 # 에러 페이지
 │ │ └── home/
-│ │ ├── index.tsx # 홈 페이지
-│ │ ├── parameter.tsx # 파라미터 페이지
-│ │ ├── query.tsx # 쿼리 페이지
-│ │ └── state.tsx # 상태 페이지
+│ │ ├── index.tsx                   # 홈 페이지
+│ │ ├── parameter.tsx               # 파라미터로 데이터 받는 페이지
+│ │ ├── query.tsx                   # 쿼리로 데이터 받는 페이지
+│ │ └── state.tsx                   # state로 데이터 받는 페이지
 │ ├── routes/
-│ │ └── index.tsx # 라우트 설정
+│ │ └── index.tsx                   # 라우트 설정
 │ ├── shared/
-│ │ ├── constant.ts # 상수 관리
-│ │ └── util.ts # 공통 유틸리티 함수
+│ │ ├── constant.ts                 # 상수 관리
+│ │ └── util.ts                     # 공통 유틸리티 함수
 │ ├── stores/
-│ │ └── userInfo.ts # 사용자 정보 스토어
+│ │ └── userInfo.ts                 # 사용자 정보 스토어
 │ ├── type/
-│ │ └── userInfo.ts # 사용자 정보 타입 정의
-│ ├── App.css # 앱 레벨 스타일
-│ ├── App.tsx # 루트 컴포넌트
-│ ├── index.css # 글로벌 스타일
-│ └── main.tsx # 앱 진입점
-├── .gitignore # Git에서 무시할 파일 목록
-├── .prettierrc # Prettier 설정 파일
-├── eslint.config.js # ESLint 설정 파일
-├── index.html # HTML 템플릿 파일
-├── package-lock.json # 패키지 잠금 파일
-├── package.json # 프로젝트 정보 및 의존성
-├── README.md # 프로젝트 설명 파일
-├── tsconfig.app.json # 앱용 TypeScript 설정
-├── tsconfig.json # TypeScript 기본 설정
-├── tsconfig.node.json # Node.js용 TypeScript 설정
-└── vite.config.ts # Vite 설정 파일
+│ │ └── userInfo.ts                 # 사용자 정보 타입 정의
+│ ├── App.css                       # 앱 레벨 스타일
+│ ├── App.tsx                       # 루트 컴포넌트
+│ ├── index.css                     # 글로벌 스타일
+│ └── main.tsx                      # 앱 진입점
+├── .gitignore                      # Git에서 무시할 파일 목록
+├── .prettierrc                     #Prettier 설정 파일
+├── eslint.config.js                # ESLint 설정 파일
+├── index.html                      # HTML 템플릿 파일
+├── package-lock.json               # 패키지 잠금 파일
+├── package.json                    # 프로젝트 정보 및 의존성
+├── README.md                       # 프로젝트 설명 파일
+├── tsconfig.app.json               # 앱용 TypeScript 설정
+├── tsconfig.json                   # TypeScript 기본 설정
+├── tsconfig.node.json              # Node.js용 TypeScript 설정
+└── vite.config.ts                  # Vite 설정 파일
 ```
 
 # Create
